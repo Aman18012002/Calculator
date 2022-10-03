@@ -1,0 +1,41 @@
+body{
+    background-color: black;
+}
+.cal-heading{
+    text-align: center;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+.button{
+   
+    font-size: 34px;
+    width: 3rem;
+    border-radius: 50%;
+    font-family: 'Roboto', sans-serif;
+}   
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.yclass{
+    background-color: #F69906;
+}
+.yclass:hover{
+    background-color: #eea838;
+    cursor: pointer;
+}
+.row input{
+    width: 13rem;
+    border: none; 
+    height: 24px;  
+}
+.mclass{
+    font-size: 28px;
+}
+.wclass:hover{
+ background-color: #C8C8C8;
+}
