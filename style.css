@@ -9,6 +9,7 @@ body{
 .button{
    
     font-size: 34px;
+    border: none;
     width: 3rem;
     border-radius: 50%;
     font-family: 'Roboto', sans-serif;
