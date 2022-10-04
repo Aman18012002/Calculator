@@ -7,20 +7,20 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 .button{
-   
     font-size: 34px;
     border: none;
     width: 3rem;
     border-radius: 50%;
     font-family: 'Roboto', sans-serif;
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset; */
 }   
 
 .row{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10px;
-    margin-bottom: 10px;
+    gap: 44px;
+    margin-bottom: 24px;
 }
 .yclass{
     background-color: #F69906;
@@ -30,9 +30,15 @@ body{
     cursor: pointer;
 }
 .row input{
-    width: 13rem;
+    width: 20rem;
     border: none; 
     height: 24px;  
+    color: #fff;
+    border: 2px solid #fff;
+    background-color: #000;
+}
+.row iinput:hover{
+    border: none;
 }
 .mclass{
     font-size: 28px;
@@ -40,3 +46,11 @@ body{
 .wclass:hover{
  background-color: #C8C8C8;
 }
+
+/* Media Query Started  */
+
+@media screen and (min-width: 900px) {
+    .btns{
+        margin-bottom: 20rem;
+    }
+  }
